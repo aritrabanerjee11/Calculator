@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+}
+
+.casio {
+    text-align: center;
+    color: black;
+    margin: 60px 0 60px 0;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.casio:hover {
+    background-color: white;
+}
+
+.container {
+    height: 400px;
+    width: 50%;
+    margin: auto;
+}
+
+#display {
+    background-color: white;
+    text-align: right;
+    height: 10px;
+    width: 5.5em;
+    padding: 16px 8px;
+    font-size: 25px;
+    line-height: 10px;
+}
+
+#rcorners4 {
+    border-radius: 15px;
+    background: black;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+  }
+
+
+.button {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border: 0.5px solid #999;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
